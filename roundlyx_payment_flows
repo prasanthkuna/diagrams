@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T10:47:20.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y2c1sgGCpp08vK03pa9e" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T13:03:03.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ea-o33xXI-i8eFl-6AVw" version="20.6.0" type="github">
   <diagram id="u_fyKKR8sXPncVhj9cvq" name="Page-1">
     <mxGraphModel dx="1178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -94,14 +94,6 @@
         <mxCell id="dZ2DQyDj7T3n9Q9R-deX-47" value="check if&lt;br&gt;there is an account with auth" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1650" y="535" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="dZ2DQyDj7T3n9Q9R-deX-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="dZ2DQyDj7T3n9Q9R-deX-52" target="OKwX9ZOod5b8Mu5nC6gk-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dZ2DQyDj7T3n9Q9R-deX-77" value="fails due to No instant auth&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dZ2DQyDj7T3n9Q9R-deX-76" connectable="0" vertex="1">
-          <mxGeometry x="-0.0532" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="dZ2DQyDj7T3n9Q9R-deX-52" value="create processor token and handover&amp;nbsp;&lt;br&gt;to sendwyre" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1650" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -186,12 +178,24 @@
           <mxGeometry x="1640" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKwX9ZOod5b8Mu5nC6gk-4" value="will show TGB Connection needs attention&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="1940" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKwX9ZOod5b8Mu5nC6gk-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.192;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dZ2DQyDj7T3n9Q9R-deX-78" target="dZ2DQyDj7T3n9Q9R-deX-65">
+        <mxCell id="OKwX9ZOod5b8Mu5nC6gk-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKwX9ZOod5b8Mu5nC6gk-4" target="OKwX9ZOod5b8Mu5nC6gk-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1780" y="610" as="sourcePoint" />
             <mxPoint x="1830" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKwX9ZOod5b8Mu5nC6gk-13" value="account approved for auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKwX9ZOod5b8Mu5nC6gk-7" target="dZ2DQyDj7T3n9Q9R-deX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKwX9ZOod5b8Mu5nC6gk-7" value="updates plaid link to instant match /micro deposit account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKwX9ZOod5b8Mu5nC6gk-11" value="fails due to No inastant auth" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dZ2DQyDj7T3n9Q9R-deX-52" target="OKwX9ZOod5b8Mu5nC6gk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="580" as="sourcePoint" />
+            <mxPoint x="1700" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
