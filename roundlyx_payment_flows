@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T11:17:01.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1FQyyPllPgV6b4IaJgTR" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-20T15:31:56.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aEn947OLsUs8cO9-fejq" version="21.0.6" type="github">
   <diagram id="u_fyKKR8sXPncVhj9cvq" name="Page-1">
-    <mxGraphModel dx="909" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZ2DQyDj7T3n9Q9R-deX-14" value="No auth accounts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dZ2DQyDj7T3n9Q9R-deX-5" target="dZ2DQyDj7T3n9Q9R-deX-13" edge="1">
+        <mxCell id="dZ2DQyDj7T3n9Q9R-deX-14" value="No auth accounts/processor token creation failure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dZ2DQyDj7T3n9Q9R-deX-5" target="dZ2DQyDj7T3n9Q9R-deX-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dZ2DQyDj7T3n9Q9R-deX-5" value="check &lt;br&gt;for auth" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
